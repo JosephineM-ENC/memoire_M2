@@ -1,0 +1,99 @@
+Si la structuration et la standardisation des données constituent la base de l'interopérabilité, elles représentent surtout le prérequis indispensable à l'utilisation de l'IA. 
+Dans le domaine spécialisé des bibliothèques musicales, l'arrivée des nouveaux outils d'IA modifie en profondeur la chaîne de traitement documentaire. Cette transformation des politiques documentaires interroge les pratiques professionnelles et l'accompagnement au changement en bibliothèques. 
+En effet, l'IA n'est plus une utopie mais est au contraire déjà bien présente dans le monde culturel comme en témoignent les appels à projets des financements européens. Dès lors, les usages de l'IA dans les LAM (\textit{Library, Archives, Museums}) encouragent les bibliothèques à repenser leur politique documentaire, leur gouvernance des données ainsi que le rôle des professionnels, dans ce contexte en mutation. 
+Par ailleurs, l'intégration de ces outils, qui n'est pas sans contrainte, interroge sur les conditions de leur performance. Nous avons vu que la qualité, la structuration et la standardisation des (méta)données qui alimentent ces modèles sont fondamentales pour leur réussite, mais au-delà de la performance technique, cette nouvelle ère de l'IA remet en question les compétences et l'organisation des professionnels de la documentation.
+Ce chapitre se propose d'étudier le potentiel et les limites de l'IA pour les collections musicales.
+En outre, il vise à analyser les initiatives d'accompagnement au changement qui soutiennent les professionnels dans cette transition. Enfin, il explore l'étude de cas du livrable de manuel de dépôt des ressources de LaDocumenta.eu, un exemple de documentation technique d'accompagnement au changement. 
+
+
+\subsection*{Promesses et enjeux de l'IA en bibliothèques musicales}
+
+
+\subsubsection*{L'IA en bibliothèque, une évidence ?}
+
+Selon Jean-Philippe Moreux, chef de la mission Intelligence Artificielle à la BnF :
+\begin{quotation}
+	L'indexation automatique trouve dans les bibliothèques un terreau favorable à sa pleine expansion du fait de l'expertise de ces dernières en sciences de l'information et de la disponibilité de corpus structurés et annotés indispensables à l'apprentissage machine\footnote{Moreux (Jean-Philippe), \textit{Indexation automatique des documents : de nouvelles métadonnées pour de nouveaux services.} Dans Cavalié (Étienne) (dir.), \textit{L'indexation matière en transition : de la réforme Rameau à l'indexation automatique.} Paris, Éditions du Cercle de la librairie, coll. « Bibliothèques », 2019, p. 113-133.}.
+\end{quotation}
+
+Si la présence de l'IA dans les bibliothèques apparaît comme une évidence pour les opérations d'indexation, l'est-elle tout autant pour l'ensemble de leurs missions ?
+De par leur mission traditionnelle de signalement, informatisé et normalisé à l'échelle internationale dès les années 1960, les bibliothèques constituent en effet un « terreau favorable\footnote{\textit{Ibid.}} » pour l'implantation de l'IA. Les efforts historiques d'interopérabilité des données y facilitent aujourd'hui l'automatisation des traitements\footnote{Boczkowski (Octave), \textit{Intelligence artificielle et signalement : quelles évolutions pour les institutions, les agents et les chaînes de traitement ?}, mémoire d'étude de conservateur des bibliothèques, Villeurbanne, Enssib, 2026.}.
+
+Par ailleurs, les nombreuses campagnes de numérisation des bibliothèques ont permis la constitution d'innombrables collections de documents et d'images soumis à des politiques de fouille de données et d’océrisation (OCR : \textit{Optical Character Recognition}). Ces données structurées et enrichies forment, comme le soulignait Pierre Carbone, un \enquote{terrain d’expérimentation} idéal pour l’IA (en méthodes statistiques comme en IA générative).
+
+Les grandes institutions patrimoniales l’ont bien compris : que ce soit le DataLab de la BnF, le projet TORNE-H du Musée des Arts Décoratifs ou le consortium PictorIA d’Huma-Num, l’IA représente un tournant majeur pour les LAM. Un groupe dédié a d’ailleurs vu le jour en 2018, AI4LAM. Depuis 2025, il compte 40 institutions partenaires.
+
+
+La BnF illustre cette dynamique de lancement d’IA. Son patrimoine numérique représente 7 pétaoctets, dont 500 milliards de mots océrisés dans Gallica et des métadonnées sémantisées sur data.bnf.fr. En 2021, la BnF a élaboré une feuille de route IA pour les années 2021 à 2026. 
+Cette feuille de route\footnote{Bermès (Emmanuelle) Bibliothèque nationale de France, \textit{Intelligence artificielle. Feuille de route 2021-2026}, Paris, Bibliothèque nationale de France, 2021. \url{https://www.bnf.fr/fr/lintelligence-artificielle-un-axe-strategique}} ne limite pas l’IA au signalement mais déploie les ambitions IA de la BnF autour de 5 axes prometteurs : 
+
+\begin{itemize}
+	\item Aide au catalogage et signalement;
+	\item Gestion des collections, des entrées à la conservation;
+	\item Exploration, analyse des collections et amélioration de l’accès;
+	\item Médiation, valorisation et éditorialisation des collections;
+	\item Aide à la décision et au pilotage\footnote{\textit{Ibid}.}.
+\end{itemize}
+
+La démarche de la BnF montre que l'IA ne se limite pas à un outil technique interne. Elle repositionne la bibliothèque comme un fournisseur de données éthiques et qualifiées pour la recherche et l'industrie — comme en témoigne l'ouverture du DataLab en 2021 — tout en soulevant des enjeux fondamentaux de gouvernance, de formation des agents et de propriété intellectuelle.
+
+
+	\subsubsection*{La qualité des données, un prérequis à l'usage de l'IA}
+
+L’efficacité des modèles d’IA repose sur un principe fondamental d’informatique : le dicton “Garbage in, garbage out”, c'est-à-dire que la valeur des résultats dépend de la qualité des données d’entraînement.
+Dans le domaine spécialisé que représentent les bibliothèques musicales, où les documents présentent une forte granularité et une diversité des supports, la standardisation et la rigueur du traitement documentaire constituent des prérequis indispensables à toute utilisation de l’IA.
+
+
+L'apprentissage automatique (\textit{Machine Learning}) et les modèles de traitement du langage naturel (\textit{NLP}) ou de vision par ordinateur nécessitent des corpus de données volumineux, structurés et soigneusement annotés. La qualité de ces données d'apprentissage s'évalue selon plusieurs dimensions critiques pour les collections patrimoniales :
+
+
+\begin{itemize}
+	
+	\item \textbf{Des métadonnées complètes et précises} : tout projet d'utilisation d'IA tente de lutter contre les biais d'apprentissage. Ces biais résultent souvent de données incomplètes ou inexactes. Par exemple dans le domaine des bibliothèques numériques musicales (comme pour LaDocumenta.eu), une confusion de titre, ou entre une oeuvre originale et son arrangement pourraient créer des erreurs d'indexation automatisée.
+	
+	\item \textbf{La précision de la segmentation et du séquençage}: dans des projets d'OMR (\textit{Optical Music Recognition}), la qualité de la numérisation, que ce soit au niveau de la résolution ou du contraste, et la précision d'annotation déterminent la capacité de l'outil à distinguer le texte musical imprimé des annotations manuscrites;
+	
+	\item \textbf{La fiabilité des référentiels d'autorité }:l'identification automatique des personnes et des lieux repose sur la qualité des notices d'autorité. Sans identifiants pérennes l'outil d'intelligence artificielle peut générer des erreurs d'indexation. 
+	
+\end{itemize}
+
+Comme nous l'avons annoncé au cours du chapitre précédent, la rigueur du traitement de la donnée est primordiale pour envisager l'utilisation ultérieure de l'IA. Plus encore, l'émergence des IA génératives, de plus en plus utilisées dans les portails documentaires renforce cette nécessité. 
+
+Ainsi, la gouvernance des données en bibliothèques doit intégrer une étape d'évaluation des corpus, mesurant leur degré de préparation à l'IA. 
+Ces outils, dont l'objectif n'est pas de se substituer au travail humain mais bien d'assister ce dernier dans les tâches répétitives, modifient les pratiques professionnelles des agents de bibliothèques et revalorisent leur expertise documentaire. 
+
+
+
+\subsection*{Documentation technique et accompagnement au changement en bibliothèque musicale.}
+
+	\subsubsection*{Accompagnement au changement en bibliothèques numériques musicales; la documentation technique, un levier d'accompagnement : le livrable de Manuel de dépôt des ressources de la plateforme LaDocumenta.eu}
+
+Pour permettre une intégration de l'IA dans des plateformes musicales numériques telles que LaDocumenta.eu, il est fondamental d'observer en amont de l'intervention de l'IA une exigence dans le traitement des données. En effet, comme nous l'avons vu, les projets d'utilisation de l'IA exigent une qualité et une uniformisation du traitement des données. Au-delà de la modification de la politique documentaire et de la gouvernance des données induites par ces ambitions de recours à l'IA, cette transformation numérique et le passage à l'ère de l'IA repensent également les pratiques professionnelles en bibliothèque. Dans le domaine spécialisé que représentent les bibliothèques musicales, il paraît d'autant plus important de formaliser ces pratiques par de la documentation technique qui, d'une part documente les procédures et facilite la continuité du travail en cas de départ des professionnels, et d'autre part est un support de l'accompagnement au changement. 
+
+Dans le cadre du déploiement de la seconde version de LaDocumenta.eu, dont la réalisation a été confiée à l'entreprise Reveality.io, la rédaction d'un manuel de dépôt des ressources s'est avérée, comme pour la première version, indispensable. Ce manuel répond à une exigence du programme européen Europe Créative pour lequel LaDocumenta.eu a été lauréate, celle de fournir des livrables techniques. C'est dans ce contexte que j'ai été amenée, en tant qu'alternante chargée de mission LaDocumenta.eu, à rédiger ce manuel de dépôt. Cet écrit s'envisage comme un support méthodologique à destination de tout contributeur de LaDocumenta.eu chargé de déposer des ressources dans la plateforme numérique. Ce livrable est conçu comme un outil méthodologique et opérationnel au service des contributeurs de LaDocumenta.eu\footnote{Ce livrable est consultable dans le volume d'annexes du présent mémoire, sous le titre : \textit{Livrable 2 : Manuel de dépôt des ressources de la plateforme LaDocumenta.eu}, pages 16 à 59.}. 
+
+En expliquant pas à pas la démarche de dépôt des ressources dans la plateforme, en précisant les spécificités des rubriques \enquote{Œuvres}, \enquote{Ressources} et \enquote{Productions}, ce manuel a pour ambition de faciliter le dépôt du point de vue des contributeurs, qui ne sont pas forcément bibliothécaires. L'objectif secondaire de ce manuel est de fournir ces explications en simplifiant au maximum la démarche du contributeur dans la tâche de dépôt des ressources, tout en ne perdant pas la rigueur bibliothéconomique attendue des bibliothécaires amenés à déposer eux aussi des ressources. Il s'agissait donc de s'adresser tout autant à des néophytes qu'à des bibliothécaires rodés. 
+
+
+
+Après un échange riche avec la catalogueuse de LaDocumenta.eu, Gabrielle Panétrat, rédactrice du manuel de fonctionnement de la bibliothèque de l'orchestre \textit{Insula Orchestra}, j'ai fait le choix d'organiser mon livrable en deux parties : 
+
+\begin{itemize}
+	\item \textbf{Une partie introductive} dédiée à guider le contributeur dans sa découverte de la plateforme, notamment dans sa navigation de la page d'accueil jusqu'à son authentification en tant que contributeur. L'interface contributeur est un mode de navigation à part, uniquement dédié aux équipes des orchestres contributeurs, qui nécessite donc une prise en main plus approfondie que l'interface \enquote{grand public}.
+	\item \textbf{Une partie \enquote{Description et utilisation de la plateforme}}, elle-même décomposée en deux parties : l'une portant sur les onglets \enquote{Œuvres}, \enquote{Ressources} et \enquote{Productions}, et l'autre portant sur les onglets \enquote{Orchestres}, \enquote{Partenaires} et \enquote{Nous soutenir}. Pour les onglets de la première sous-partie, chaque onglet est ensuite subdivisé pour couvrir la description théorique et les recommandations de navigation et de dépôt propres à chaque onglet. Pour les onglets de la deuxième sous-partie, il s'agissait davantage d'une présentation des onglets, car ce ne sont pas des onglets opérationnels. Les contributeurs devant souscrire à une offre pour s'inscrire à la plateforme, l'onglet \enquote{Nous soutenir} semble plus dédié aux usagers \enquote{grand public}. Il présente toutefois la particularité de présenter les objectifs de la plateforme, en l'absence d'une page de présentation générale.
+\end{itemize}
+
+Même si problématiser un manuel de dépôt des ressources n'est pas chose aisée, le manuel de dépôt de LaDocumenta.eu m'a amenée à interroger la notion de préparation de la conduite du changement en bibliothèque, dans la perspective d'une intégration future de l'IA dans le fonctionnement de la plateforme. 
+Une attention particulière a donc été portée à l'encouragement (l'obligation) des contributeurs à utiliser des référentiels produits par les grands établissements, comme les notices d'autorité de la BnF, afin de s'inscrire dans la démarche d'interopérabilité permettant à terme l'utilisation de l'IA, telle que décrite dans le chapitre précédent. 
+Même si certaines remarques de ce manuel sont d'une simplicité désarmante, elles s'expliquent par la volonté de ne surtout pas omettre de préciser un élément important sous prétexte qu'il pourrait être évident pour une catégorie de contributeurs. 
+Cette rédaction a été inspirée des manuels de documentation interne consultés pour rédiger ce livrable : en particulier le manuel de dépôt de la première version de LaDocumenta.eu et le manuel de fonctionnement de la bibliothèque \textit{Insula Orchestra}. Après un premier jet pensé pour des contributeurs connaisseurs de la plateforme, il a été décidé en accord avec le bibliothécaire d'\textit{Insula Orchestra} et la catalogueuse de proposer une version enrichie. 
+Toutefois, la limite de ce livrable consiste en l'état d'avancement de la plateforme, encore non aboutie au moment du rendu du présent manuel. Autant que possible, des remarques indiquant les éléments encore en discussion ou les améliorations à venir de la plateforme ont été faites dans la rédaction de ce manuel. 
+L'écueil que j'ai essayé d'éviter était de fournir un manuel voué à l'obsolescence dès que lesdites améliorations auront été apportées à la plateforme. La question de la langue d'écriture a aussi constitué une limite. Dans le cadre d'une plateforme européenne, l'idéal aurait été de rédiger le manuel en anglais mais, au vu du temps assez court alloué à ce travail, il n'a pas été possible de le réaliser. En effet, il était impossible de débuter la rédaction de ce livrable avant un état d'avancement du développement de la plateforme satisfaisant pour éviter l'écueil de l'obsolescence. La rédaction en anglais aurait supposé de reprendre toutes les captures d'écran avec l'interface en anglais, ce qui aurait été bien trop chronophage pour le temps alloué. 
+
+Cependant, même si ce livrable — enrichi par rapport à mon premier jet — présente les limites précédemment citées, il permet d'analyser le rôle de la documentation technique en bibliothèque musicale comme pilier de la qualité des données. 
+L’objectif, en élaborant cette documentation technique, était d’encourager une saisie harmonisée et normée des ressources en préparant le terrain à l'intégration des outils d’intelligence artificielle. Loin de menacer le savoir-faire des professionnels, l'IA circonscrite dans des usages délimités par les institutions vient ainsi au secours des bibliothèques musicales, parfois en manque d’agents spécialisés, en leur offrant des outils de traitement automatisé adaptés à la complexité de ces corpus spécialisés. C'est ce rôle d'assistant stratégique et opérationnel de l'IA qu'il convient désormais d'étudier. 
+
+	
+
+
+

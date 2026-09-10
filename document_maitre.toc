@@ -1,0 +1,19 @@
+\xpg@aux {}{french}
+\contentsline {chapter}{Résumé}{i}{chapter*.1}%
+\contentsline {chapter}{Remerciements}{iii}{chapter*.2}%
+\contentsline {chapter}{Liste des acronymes}{vii}{chapter*.4}%
+\contentsline {part}{Bibliographie}{xv}{part*.11}%
+\contentsline {chapter}{Introduction}{xxi}{chapter*.16}%
+\contentsline {part}{I\hspace {1em}Les bibliothèques d’orchestre, des institutions clés pour la pratique historiquement informée (HIP) à l’ère du numérique.}{1}{part.1}%
+\contentsline {chapter}{\numberline {1}La bibliothèque d'orchestre en Europe}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {2}De la source patrimoniale à la scène de la pratique historiquement informée : la place de la bibliothèque musicale, entre conservation patrimoniale et performance musicale}{11}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Analyser les usages UX en bibliothèque musicale numérique}{21}{chapter.3}%
+\contentsline {part}{II\hspace {1em}De la partition à la donnée : structurer et normaliser le patrimoine musical pour construire l'interopérabilité}{31}{part.2}%
+\contentsline {chapter}{\numberline {4}Définir une politique documentaire}{33}{chapter.4}%
+\contentsline {chapter}{\numberline {5}La standardisation comme prérequis à l'interopérabilité}{49}{chapter.5}%
+\contentsline {part}{III\hspace {1em}Quels apports de l'IA en bibliothèque musicale pour le chercheur et musicien (HIP)?}{63}{part.3}%
+\contentsline {chapter}{\numberline {6}Le rôle de l'IA en bibliothèques musicales : promesses, enjeux et accompagnement au changement. }{65}{chapter.6}%
+\contentsline {chapter}{\numberline {7}L'IA comme assistant documentaire et musicologique}{71}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Les limites de l'IA en bibliothèques musicales : aspects éthiques et juridiques }{77}{chapter.8}%
+\contentsline {chapter}{Conclusion}{83}{chapter*.51}%
+\contentsline {chapter}{Annexes}{91}{appendix*.52}%
