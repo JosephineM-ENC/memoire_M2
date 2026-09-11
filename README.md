@@ -37,9 +37,12 @@ Mon mémoire se structure en 3 parties :
 ### Partie I : Les bibliothèques d’orchestre, des institutions clés pour la pratique historiquement informée (HIP) à l’ère du numérique.
 
 #### Chapitre 1 : La bibliothèque d'orchestre en Europe
-1.1 Le rôle traditionnel des bibliothèques musicales et d’orchestre
-1.2 De nouvelles perspectives pour les bibliothèques d’orchestre : un réseau au service de la science ouverte
-1.3 Étude de cas : le consortium européen LaDocumenta.eu
+1.1 Le rôle traditionnel des bibliothèques musicales et d’orchestre  
+
+1.2 De nouvelles perspectives pour les bibliothèques d’orchestre : un réseau au service de la science ouverte  
+
+1.3 Étude de cas : le consortium européen LaDocumenta.eu  
+
 
 #### Chapitre 2 : De la source patrimoniale à la scène de la pratique historiquement informée : la place de la bibliothèque musicale, entre conservation patrimoniale et performance musicale
 2.1 La pratique historiquement informée: des besoins particuliers pour les musiciens et les chercheurs
