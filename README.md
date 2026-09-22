@@ -4,7 +4,7 @@
 Bienvenue dans ce dépôt Github qui présente les fichiers sources du document LaTeX de mon mémoire de master 2 "Technologies numériques appliquées à l'Histoire". Mon mémoire porte sur une expérience de fin d'études réalisée dans un orchestre à dimension internationale où j'ai été alternante en tant que bibliothécaire musicale assistante pendant 11 mois. 
 J'y ai particulièrement été chargée de mission du projet LaDocumenta.eu, une bibliothèque numérique musicale en construction, née du consortium d'orchestres de pratique historiquement informée de la musique, LaDocumenta.
 
-Ce mémoire s'intéresse à la singularité des bibliothèques musicales - notamment d'orchestres - dans le paysage général des bibliothèques. Il étudie en particulier le rôle des bibliothèques et de leurs bibliothécaires dans la recherche musicologique et l'interprétation historiquement informée, et les transformations numériques du secteurs, notamment au niveau du traitement de la donnée et de l'arrivée de l'intelligence artificielle dans ce secteur professionnel.
+Ce mémoire s'intéresse à la singularité des bibliothèques musicales - notamment d'orchestres - dans le paysage général des bibliothèques. Il étudie en particulier le rôle des bibliothèques et de leurs bibliothécaires dans la recherche musicologique et l'interprétation historiquement informée, et les transformations numériques du secteur, notamment au niveau du traitement de la donnée et de l'arrivée de l'intelligence artificielle dans ce secteur professionnel.
 
 ## Encadrants
 
